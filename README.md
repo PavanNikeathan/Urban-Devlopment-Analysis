@@ -2,8 +2,9 @@
 
 This project explores **urban development patterns** using high-resolution satellite imagery from the [SpaceNet 7 Multi-Temporal Urban Development Dataset](https://www.kaggle.com/datasets/amerii/spacenet-7-multitemporal-urban-development). The goal is to extract meaningful **spatiotemporal insights** about how urban areas evolve over time, with a particular focus on **seasonal and temporal changes**.
 Implemented two complementary approaches for urban development analysis using extracted binary building masks from 60+ satellite image tiles.
--Approach 1 (Clustering): Used pixel-based KMeans clustering to detect construction by comparing first and last month's masks, and to identify monthly growth patterns without geographic data.
--Approach 2 (IOU + Distance): Utilized geographic coordinate data from building masks to track individual buildings using IOU and distance-based matching across months.
+
+##-Approach 1 (Clustering): Used pixel-based KMeans clustering to detect construction by comparing first and last month's masks, and to identify monthly growth patterns without geographic data.
+##-Approach 2 (IOU + Distance): Utilized geographic coordinate data from building masks to track individual buildings using IOU and distance-based matching across months.
 
 ---
 
